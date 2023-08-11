@@ -348,7 +348,7 @@ footer ul li a:hover {
 .portfolio-item {
     margin: 0 8px;
     width: 33%;
-    text-align: left;
+    text-align: center;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -392,7 +392,7 @@ footer ul li a:hover {
 }
 
 .contact h2 {
-    color: #fff;
+    color: #0582CA;
 }
 
 .contact p {
