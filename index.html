@@ -11,33 +11,27 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     </head>
     <body>
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div>
         <header>
-            <div class="logo">
-                <img src="images/logo.png" alt="my logo"></div>
-            <div class="nav">
-                    <ul>
+            <div class="container">
+                <nav>
+                <p>Kayla Haas</p>
+                <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            <div class="heroImg">
-                    <h1>UX/UI Design</h1>
-                    <h3>Hello, I'm Kayla Haas. Thanks for stopping by!</h3>
-                    <br>
-                        <button><a href="#portfolio">Download Resume</a></button>
+                </ul>
+                </nav>
+                <div class="hero-text">
+                    <h1>UX UI Design Portfolio</h1>
+                    <p>Hi, I'm Kayla :) | User Experience Designer | Behavior Analyst</p>
+                    <div>
+                        <button><a href="#portfolio">View Portfolio</a></button>
                         <button><a href="#contact">Say Hello!</a></button>
+                    </div>
                 </div>
+            </div>
             <div class="clear-fix"></div>
         </header>
-        <br>
         <section class="about" id="about">
             <div class="container">
                 <img src="images/profilepic.jpg" alt="A picture of me" height="180px" width="150px">
@@ -56,16 +50,35 @@
             </div>
         </section>
         <section class="skills">
+            <div class="container">
                 <h2>My Skills</h2>
                 <div class="skills-list">
-                    <ul>
-                        <li>User experience design</li>
-                        <li>User research</li>
-                        <li>Behavior observation</li>
-                        <li>HTML, CSS, Javascript, Bootstrap</li>
-                        <li>Figma, Miro, CodePen</li>
-                    </ul>
+                    <div class="skills-item">
+                        <img src="images/web.png" alt="">
+                        <h3>User Experience Design</h3>
+                    </div>
+                    <div class="skills-item">
+                        <img src="images/brand.png" alt="">
+                        <h3>User Research</h3>
+                    </div>
+                    <div class="skills-item">
+                        <img src="images/ux.png" alt="">
+                        <h3>Behavioral Observation</h3>
+                    </div>
+                    <div class="skills-item">
+                        <img src="images/code.png" alt="">
+                        <h3>HTML & CSS</h3>
+                    </div>
+                    <div class="skills-item">
+                        <img src="images/figma.png" alt="">
+                        <h3>Figma</h3>
+                    </div>
+                    <div class="skills-item">
+                        <img src="images/sketch.png" alt="">
+                        <h3>CodePen</h3>
+                    </div>
                 </div>
+            </div>
         </section>
         <section>
         <div class="portfolio" id="portfolio">
@@ -74,21 +87,21 @@
                     <div class="portfolio-item">
                         <img src="images/spacedoutThumbnail.png" alt="Spaced Out" height="350px" width="350px">
                         <h3>Spaced Out</h3>
-                        <p>Mobile app description here</p>
+                        <p>Mobile App Case Study</p>
                         <a href="">View case study</a>
                         </div>
                     <br>
                     <div class="portfolio-item">
                         <img src="images/deptofedThumbnail.png" alt="Department of Education" height="350px" width="350px">
                         <h3>Department of Ed</h3>
-                        <p>Website redesign description here</p>
+                        <p>Website Redesign</p>
                         <a href="">View case study</a>
                     </div>
                     <br>
                     <div class="portfolio-item">
                         <img src="images/wonderbloomThumbnail.png" alt="Wonderbloom" height="350px" width="350px">
                         <h3>Wonderbloom</h3>
-                        <p>Nonprofit redesign stuff here</p>
+                        <p>Nonprofit Website UI Redesign</p>
                         <a href="">View case study</a>
                     </div>
                 </div>
@@ -103,15 +116,12 @@
             </div>
         </section>
         <footer>
-            <ul>
+            <div class="container"></div><ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/kaylahaasuxdesign/">LinkedIn</a></li>
             </ul>
-            <div class="container">
-                <ul>
-                    <li><a href="https://www.linkedin.com/in/kayla-h-7b6ba91a8">LinkedIn</a></li>
-                </ul>
             </div>
             <div class="clear-fix"></div>
         </footer>
